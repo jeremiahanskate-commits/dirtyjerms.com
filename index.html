@@ -3,105 +3,150 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Dirty Jerm's — independent product design for people who grow things. Enabling life, not selling it." />
   <title>Dirty Jerm's — Enabling Life, Not Selling It.</title>
-  <meta name="description" content="Dirty Jerm's — botanical product design, prototypes, and field notes from The Foundry." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <main>
-    <section class="hero" aria-label="Dirty Jerm's field journal homepage">
-      <div class="book-stage">
-        <img src="field-journal-home.png" alt="An open, worn botanical field journal with handwritten notes, sketched plants, Dirty Jerm's monogram, and a moss pole prototype." class="book-art" />
-        <nav class="hotspot-nav" aria-label="Primary navigation">
-          <a class="hotspot home" href="#home">Home</a>
-          <a class="hotspot story" href="#story">Our Story</a>
-          <a class="hotspot products" href="#products">Products</a>
-          <a class="hotspot journal" href="#journal">Journal</a>
-          <a class="hotspot gallery" href="#gallery">Gallery</a>
-          <a class="hotspot contact" href="#contact">Contact</a>
-        </nav>
+  <header class="site-header" aria-label="Primary navigation">
+    <a class="brand-mini" href="#top" aria-label="Dirty Jerm's home">
+      <img src="assets/dj-monogram.png" alt="Dirty Jerm's DJ monogram" />
+      <span>Dirty Jerm's</span>
+    </a>
+    <nav>
+      <a href="#who">Who we are</a>
+      <a href="#how">How we work</a>
+      <a href="#believe">What we believe</a>
+      <a href="#foundry">The Foundry</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero journal-sheet" aria-labelledby="hero-title">
+      <div class="paper-grain" aria-hidden="true"></div>
+      <div class="hero-mark">
+        <img src="assets/dj-monogram.png" alt="Dirty Jerm's DJ monogram" />
       </div>
-      <div class="scroll-note">turn the page ↓</div>
+      <div class="hero-copy">
+        <p class="folio">EST. 2026 &nbsp;•&nbsp; FIELD RECORD No. 001</p>
+        <h1 id="hero-title">DIRTY JERM'S</h1>
+        <p class="motto">Enabling life. Not selling it.</p>
+        <div class="ink-rule" aria-hidden="true"></div>
+        <p class="lead">We are an independent product-design house for people who grow things.</p>
+        <p class="intro">We make thoughtful tools that solve real problems around plants, growth, and the experience of caring for living things. Nothing ornamental for ornament's sake. Nothing invented because the internet needed another product. We build when there is something worth fixing.</p>
+        <a class="text-link" href="#who">Read the field notes ↓</a>
+      </div>
+      <p class="margin-note note-one">A little dirt is usually a sign something useful happened.</p>
+      <p class="page-number">01</p>
     </section>
 
-    <section id="story" class="journal-page spread">
-      <article class="paper note-paper">
-        <p class="eyebrow">Field note · 01</p>
-        <h1>The House</h1>
-        <p>Dirty Jerm's makes objects that help living things do what they were already trying to do.</p>
-        <p>Climb. Root. Unfurl. Bloom.</p>
-        <p class="scribble">We don't manufacture the moment. We make room for it.</p>
+    <section id="who" class="spread">
+      <article class="journal-page page-left">
+        <p class="kicker">I. WHO WE ARE</p>
+        <h2>A small company with dirt under its nails.</h2>
+        <p>Dirty Jerm's began with a habit: noticing the little things that make plant care more frustrating than it needs to be, then wondering whether they could be designed better.</p>
+        <p>We are not a nursery. We are not a lifestyle brand pretending every object needs a story. We are a product company built around curiosity, function, and the belief that useful things can still have personality.</p>
+        <p>We're intentionally small. That means ideas can be tested, broken, changed, and rebuilt without a committee sanding all the character off them.</p>
+        <p class="handwritten">Useful first. Beautiful because it earned it.</p>
+        <span class="paper-label">DIRTY JERM'S / FIELD NOTE 01</span>
       </article>
-      <aside class="paper specimen-paper">
-        <svg class="ink-plant" viewBox="0 0 420 560" role="img" aria-label="Hand-drawn botanical leaf study">
-          <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M205 530 C205 430 205 330 210 230 C215 155 220 92 238 35"/>
-            <path d="M211 405 C160 372 113 335 78 287"/><path d="M211 346 C260 314 303 273 339 223"/>
-            <path d="M213 286 C161 255 124 212 99 169"/><path d="M217 226 C264 197 302 161 332 119"/>
-            <path d="M221 166 C181 143 151 112 130 77"/><path d="M227 117 C259 96 283 71 302 44"/>
-            <path d="M78 287 C110 280 139 289 160 318 C130 322 103 311 78 287Z"/>
-            <path d="M339 223 C310 218 280 226 255 254 C285 258 315 248 339 223Z"/>
-            <path d="M99 169 C128 166 154 175 174 197 C145 202 118 192 99 169Z"/>
-            <path d="M332 119 C305 117 282 126 264 146 C291 150 316 141 332 119Z"/>
-            <path d="M130 77 C151 78 171 86 186 101 C164 104 145 96 130 77Z"/>
-            <path d="M302 44 C283 46 266 53 252 67 C270 70 287 62 302 44Z"/>
-            <path d="M111 291 C130 299 145 308 157 319"/><path d="M311 229 C291 237 274 246 259 255"/>
-            <path d="M124 173 C143 180 159 188 172 197"/><path d="M306 123 C291 130 277 138 266 146"/>
-            <path d="M151 82 C164 88 176 94 185 101"/><path d="M281 49 C271 55 261 61 253 67"/>
-          </g>
-        </svg>
-        <p class="caption">Fig. 4 · leaf study<br><em>ink on whatever paper was nearest</em></p>
+
+      <article class="journal-page page-right pull-page">
+        <p class="quote-mark">“</p>
+        <blockquote>We don't manufacture the growth, the root, the leaf, the climb, or the bloom. We create the conditions that help make those things possible.</blockquote>
+        <p class="signature">— The Dirty Jerm's philosophy</p>
+        <div class="pressed-line" aria-hidden="true"></div>
+        <p class="small-copy">That is what <strong>Enabling Life, Not Selling It.</strong> means to us. The experience belongs to the plant and the person growing it. Our job is to quietly make that experience better.</p>
+      </article>
+    </section>
+
+    <section id="how" class="journal-sheet process-sheet">
+      <div class="paper-grain" aria-hidden="true"></div>
+      <div class="section-head">
+        <p class="kicker">II. HOW WE WORK</p>
+        <h2>Observe. Make. Break. Learn. Repeat.</h2>
+        <p>Dirty Jerm's products begin with a real annoyance, not a trend forecast.</p>
+      </div>
+
+      <div class="process-grid" role="list">
+        <article role="listitem"><span>01</span><h3>Observe</h3><p>Pay attention to the problem as it actually happens.</p></article>
+        <article role="listitem"><span>02</span><h3>Design</h3><p>Strip the idea down until every feature has a reason to exist.</p></article>
+        <article role="listitem"><span>03</span><h3>Build</h3><p>Turn the idea into something physical enough to prove us wrong.</p></article>
+        <article role="listitem"><span>04</span><h3>Test</h3><p>Use it. Abuse it. Find the weak spots. Keep the evidence.</p></article>
+        <article role="listitem"><span>05</span><h3>Refine</h3><p>Fix what matters. Leave the unnecessary cleverness behind.</p></article>
+      </div>
+
+      <aside class="scribble-card">
+        <p class="handwritten">The Green Book rule:</p>
+        <p>Nothing needs to begin perfectly. It needs to begin.</p>
+      </aside>
+      <p class="page-number">02</p>
+    </section>
+
+    <section id="believe" class="spread belief-spread">
+      <article class="journal-page belief-main">
+        <p class="kicker">III. WHAT WE BELIEVE</p>
+        <h2>Good design should disappear into the experience.</h2>
+        <p>The best product is not the thing you spend all day admiring. It is the thing that quietly lets something else happen.</p>
+        <p>A leaf unfurls. A root finds somewhere to hold. A plant climbs instead of collapses. A frustrating routine becomes simple enough that you stop thinking about it.</p>
+        <p>That is the standard: products should earn their place by enabling something real.</p>
+        <div class="belief-list">
+          <p><strong>Function before gimmicks.</strong><br />If it doesn't make the experience better, it doesn't belong.</p>
+          <p><strong>Evidence before ego.</strong><br />A prototype is allowed to tell us our favorite idea was stupid.</p>
+          <p><strong>Personality without nonsense.</strong><br />We take the work seriously. Ourselves, slightly less so.</p>
+        </div>
+      </article>
+
+      <aside class="journal-page note-page">
+        <p class="handwritten big-note">Good design.<br />Dirty hands.<br /><em>No bullshit.</em></p>
+        <p class="tiny-note">A house rule.</p>
       </aside>
     </section>
 
-    <section id="products" class="journal-page spread reverse">
-      <article class="paper diagram-paper">
-        <p class="eyebrow">Prototype · P1</p>
-        <h2>Moss pole system</h2>
-        <div class="diagram">
-          <div class="pole"></div>
-          <span class="callout c1">modular</span>
-          <span class="callout c2">internal watering</span>
-          <span class="callout c3">root support</span>
-          <span class="callout c4">built to grow with the plant</span>
+    <section id="foundry" class="journal-sheet foundry-sheet">
+      <div class="paper-grain" aria-hidden="true"></div>
+      <div class="foundry-grid">
+        <div>
+          <p class="kicker">IV. THE FOUNDRY</p>
+          <h2>Where ideas have to become real.</h2>
         </div>
-        <p class="scribble">Ugly first. Useful first. Pretty after it earns it.</p>
+        <div class="foundry-copy">
+          <p>The Foundry is Dirty Jerm's product-development workspace: part workshop, part laboratory, part graveyard for ideas that sounded better before they existed physically.</p>
+          <p>It's where we sketch, model, print, test, document, revise, and occasionally swear at objects until they behave.</p>
+          <p>We keep the failures because they are part of the work. We keep the wins because they tell us what to do next. And we do not publish the clever parts before they are ready to leave the room.</p>
+        </div>
+      </div>
+      <div class="foundry-stamp">PROTOTYPES • QUESTIONABLE DECISIONS • USEFUL DISCOVERIES</div>
+      <p class="page-number">03</p>
+    </section>
+
+    <section class="spread founder-spread">
+      <article class="journal-page founder-page">
+        <p class="kicker">V. THE HOUSE</p>
+        <h2>Built by a plant person who got tired of accepting “good enough.”</h2>
+        <p>Dirty Jerm's was founded by <strong>Jeremiah Anskate</strong>, owner, designer, builder, tester, and — when appropriate — Head Cultivator.</p>
+        <p>The company grew out of equal parts plant obsession, product-design curiosity, 3D printing, and a stubborn belief that everyday problems deserve better answers than “that's just how it is.”</p>
+        <p>There is no enormous team hiding behind the curtain. Right now, the person asking the question is usually the same person sketching the answer, building the prototype, breaking it, and writing down what happened.</p>
+        <p class="handwritten">Build carefully. Stay curious. Make things worth making.</p>
       </article>
-      <article class="paper quote-paper">
-        <p class="quote">“Enabling life, not selling it.”</p>
-        <p>That is the whole point. The object is not the experience. The object exists to make the experience possible.</p>
-        <div class="ink-stain"></div>
+
+      <article class="journal-page identity-page">
+        <p class="kicker">DIRTY JERM'S / EST. 2026</p>
+        <img src="assets/dj-monogram.png" alt="Dirty Jerm's DJ monogram" class="closing-mark" />
+        <p class="closing-motto">ENABLING LIFE<br />NOT SELLING IT.</p>
+        <div class="ink-rule"></div>
+        <p class="small-copy">Independent product design for people who grow things.</p>
       </article>
     </section>
 
-    <section id="journal" class="journal-page single-page">
-      <article class="paper journal-entry">
-        <p class="date">Sept. 13, 2026</p>
-        <h2>Something is growing.</h2>
-        <p>There are prototypes to make, products to test, mistakes to keep, and ideas that will probably get dirt under their nails before they ever get a price tag.</p>
-        <p>This is the working record. The messy parts stay.</p>
-        <p class="signature">— J.</p>
-      </article>
-    </section>
-
-    <section id="gallery" class="journal-page gallery-page">
-      <div class="paper photo-card tilt-a"><div class="fake-photo dark"></div><p>Foundry study · after hours</p></div>
-      <div class="paper photo-card tilt-b"><div class="fake-photo moss"></div><p>Material / texture note</p></div>
-      <div class="paper photo-card tilt-c"><div class="fake-photo clay"></div><p>Prototype no. 01</p></div>
-    </section>
-
-    <section id="contact" class="journal-page single-page contact-page">
-      <article class="paper contact-paper">
-        <h2>Leave a note.</h2>
-        <p>For collaborations, questions, or strange little ideas worth growing.</p>
-        <a href="mailto:hello@dirtyjerms.com">hello@dirtyjerms.com</a>
-        <p class="footer-note">Dirty Jerm's · Est. 2026 · The Foundry</p>
-      </article>
+    <section class="closing">
+      <p class="handwritten">The rest is still being written.</p>
+      <h2>DIRTY JERM'S</h2>
+      <p>Something useful is growing.</p>
+      <p class="copyright">© 2026 Dirty Jerm's. All rights reserved.</p>
     </section>
   </main>
+
   <script src="script.js"></script>
 </body>
 </html>

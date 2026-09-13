@@ -1,5 +1,11 @@
-# Dirty Jerm's — V9 Exact Field Journal Direction
+# Dirty Jerm's — Final Company Site
 
-This build uses the approved field-journal artwork as the actual opening spread so the first impression matches the reference exactly. Navigation is positioned invisibly over the handwritten menu, while the lower sections continue the same worn-paper, handwritten, ink-study language.
+A restrained, adult field-journal website focused only on who Dirty Jerm's is, how the company works, and what it believes.
 
-Upload all files in this folder to the root of the GitHub Pages repository.
+## Files
+- `index.html`
+- `styles.css`
+- `script.js`
+- `assets/dj-monogram.png`
+
+Upload these to the root of the GitHub Pages repository, preserving the `assets` folder.
