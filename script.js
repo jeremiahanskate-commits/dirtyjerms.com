@@ -1,0 +1,1 @@
+const hero=document.querySelector('.hero');window.addEventListener('mousemove',e=>{if(innerWidth<850)return;const x=(e.clientX/innerWidth-.5)*8,y=(e.clientY/innerHeight-.5)*8;document.querySelector('.hero-art').style.transform=`rotate(8deg) translate(${x}px,${y}px)`});
